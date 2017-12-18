@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="cl.inacap.puntaarenas.evaluacion4.Ordenes.Orden_Sonido1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_alignStart="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="42dp"
+            android:text="@string/precio"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="317dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView16"
+            android:layout_alignStart="@+id/textView16"
+            android:layout_below="@+id/textView16"
+            android:layout_marginTop="49dp"
+            android:text="@string/direccion_cliente"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="242dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="116dp"
+            android:layout_height="57dp"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="47dp"
+            android:text="@string/nombre_cliente"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="118dp"
+            android:layout_height="61dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/producto_pc1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/nombre_producto"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/producto_sonido1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_toEndOf="@+id/textView2"
+            android:layout_toRightOf="@+id/textView2"
+            android:text="@string/sonido1"
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/nombre_cliente_sonido1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView16"
+            android:layout_alignLeft="@+id/producto_sonido1"
+            android:layout_alignStart="@+id/producto_sonido1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/direccion_sonido1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView6"
+            android:layout_alignLeft="@+id/nombre_cliente_sonido1"
+            android:layout_alignStart="@+id/nombre_cliente_sonido1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/precio_sonido1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView7"
+            android:layout_alignLeft="@+id/direccion_sonido1"
+            android:layout_alignStart="@+id/direccion_sonido1"
+            android:text="@string/precio_sonido1"
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/agregar_sonido1"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="61dp"
+            android:layout_toEndOf="@+id/textView7"
+            android:layout_toRightOf="@+id/textView7"
+            android:background="@android:color/holo_orange_dark"
+            android:text="@string/Orden"
+            android:textColor="@android:color/background_dark" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

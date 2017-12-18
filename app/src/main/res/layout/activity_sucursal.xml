@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="cl.inacap.puntaarenas.evaluacion4.Sucursales.SucursalActivity">
+
+    <Button
+        android:id="@+id/buttonpuq"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="249dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/sucursal1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonstgo"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="249dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginTop="188dp"
+        android:text="@string/sucursal2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonpuerto"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="249dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginTop="300dp"
+        android:text="@string/sucursal3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

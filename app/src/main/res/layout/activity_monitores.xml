@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="cl.inacap.puntaarenas.evaluacion4.Lista_productos.MonitoresActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_alignLeft="@+id/imageView6"
+            android:layout_alignStart="@+id/imageView6"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/monitor2"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="168dp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            app:srcCompat="@drawable/monitor1"
+            tools:layout_editor_absoluteX="466dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_alignLeft="@+id/imageView7"
+            android:layout_alignStart="@+id/imageView7"
+            android:layout_below="@+id/btn_monitor2"
+            app:srcCompat="@drawable/monitor3" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="17dp"
+            android:textColor="@android:color/black"
+            android:textSize="13dp"
+            android:layout_toEndOf="@+id/imageView6"
+            android:layout_toRightOf="@+id/imageView6"
+            android:text="@string/monitor1" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView8"
+            android:textColor="@android:color/black"
+            android:textSize="13dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@+id/imageView6"
+            android:layout_toRightOf="@+id/imageView6"
+            android:text="@string/precio" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView15"
+            android:layout_marginLeft="13dp"
+            android:textColor="@android:color/black"
+            android:textSize="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_toEndOf="@+id/textView15"
+            android:layout_toRightOf="@+id/textView15"
+            android:text="@string/precio_monitor1" />
+
+        <Button
+            android:id="@+id/btn_monitor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView8"
+            android:layout_alignRight="@+id/textView8"
+            android:layout_below="@+id/textView15"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/imageView6"
+            android:layout_toRightOf="@+id/imageView6"
+            android:background="@android:color/holo_orange_dark"
+            android:text="@string/Orden"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView6"
+            android:layout_marginTop="34dp"
+            android:layout_toEndOf="@+id/imageView7"
+            android:layout_toRightOf="@+id/imageView7"
+            android:textColor="@android:color/black"
+            android:textSize="13dp"
+            android:text="@string/monitor2" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView18"
+            android:layout_marginTop="14dp"
+            android:textColor="@android:color/black"
+            android:textSize="13dp"
+            android:layout_toEndOf="@+id/imageView7"
+            android:layout_toRightOf="@+id/imageView7"
+            android:text="@string/precio" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView19"
+            android:layout_alignLeft="@+id/textView17"
+            android:textColor="@android:color/black"
+            android:textSize="13dp"
+            android:layout_alignStart="@+id/textView17"
+            android:text="@string/precio_monitor1" />
+
+        <Button
+            android:id="@+id/btn_monitor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/btn_monitor1"
+            android:layout_alignRight="@+id/btn_monitor1"
+            android:layout_below="@+id/textView19"
+            android:layout_marginTop="11dp"
+            android:layout_toEndOf="@+id/imageView7"
+            android:layout_toRightOf="@+id/imageView7"
+            android:background="@android:color/holo_orange_dark"
+            android:text="@string/Orden"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView7"
+            android:layout_marginTop="33dp"
+            android:textColor="@android:color/black"
+            android:textSize="13dp"
+            android:layout_toEndOf="@+id/imageView11"
+            android:layout_toRightOf="@+id/imageView11"
+            android:text="@string/monitor3" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView21"
+            android:textColor="@android:color/black"
+            android:textSize="13dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/imageView11"
+            android:layout_toRightOf="@+id/imageView11"
+            android:text="@string/precio" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView22"
+            android:layout_alignLeft="@+id/textView20"
+            android:textColor="@android:color/black"
+            android:textSize="13dp"
+            android:layout_alignStart="@+id/textView20"
+            android:text="@string/precio_monitor1" />
+
+        <Button
+            android:id="@+id/btn_monitor3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/btn_monitor2"
+            android:layout_alignRight="@+id/btn_monitor2"
+            android:layout_below="@+id/textView22"
+            android:layout_toEndOf="@+id/imageView11"
+            android:layout_toRightOf="@+id/imageView11"
+            android:background="@android:color/holo_orange_dark"
+            android:text="@string/Orden"
+            android:textColor="@android:color/background_dark" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

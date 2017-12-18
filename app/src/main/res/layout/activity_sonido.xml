@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="cl.inacap.puntaarenas.evaluacion4.Lista_productos.SonidoActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="14dp"
+            app:srcCompat="@drawable/sonido1" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_alignLeft="@+id/imageView12"
+            android:layout_alignStart="@+id/imageView12"
+            android:layout_below="@+id/imageView12"
+            app:srcCompat="@drawable/sonido2" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_alignLeft="@+id/imageView13"
+            android:layout_alignStart="@+id/imageView13"
+            android:layout_below="@+id/imageView13"
+            app:srcCompat="@drawable/sonido3" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView12"
+            android:layout_toEndOf="@+id/imageView12"
+            android:textColor="@android:color/black"
+            android:textSize="13dp"
+            android:layout_toRightOf="@+id/imageView12"
+            android:text="@string/sonido1" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView24"
+            android:layout_marginTop="11dp"
+            android:layout_toEndOf="@+id/imageView12"
+            android:layout_toRightOf="@+id/imageView12"
+            android:textColor="@android:color/black"
+            android:textSize="13dp"
+            android:text="@string/precio" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView25"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/textView25"
+            android:textColor="@android:color/black"
+            android:textSize="13dp"
+            android:layout_toRightOf="@+id/textView25"
+            android:text="@string/precio_sonido1" />
+
+        <Button
+            android:id="@+id/btn_sonido1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView25"
+            android:layout_marginTop="17dp"
+            android:layout_toEndOf="@+id/imageView12"
+            android:layout_toRightOf="@+id/imageView12"
+            android:background="@android:color/holo_orange_dark"
+            android:text="@string/Orden"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView12"
+            android:textColor="@android:color/black"
+            android:textSize="13dp"
+            android:layout_toEndOf="@+id/imageView13"
+            android:layout_toRightOf="@+id/imageView13"
+            android:text="@string/sonido2" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black"
+            android:textSize="13dp"
+            android:layout_toEndOf="@+id/imageView13"
+            android:layout_toRightOf="@+id/imageView13"
+            android:text="@string/precio" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView28"
+            android:layout_alignEnd="@+id/textView26"
+            android:layout_alignRight="@+id/textView26"
+            android:textColor="@android:color/black"
+            android:textSize="13dp"
+            android:text="@string/precio_sonido2" />
+
+        <Button
+            android:id="@+id/btn_sonido2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView28"
+            android:layout_marginTop="11dp"
+            android:layout_toEndOf="@+id/imageView13"
+            android:layout_toRightOf="@+id/imageView13"
+            android:background="@android:color/holo_orange_dark"
+            android:text="@string/Orden"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView13"
+            android:textColor="@android:color/black"
+            android:textSize="13dp"
+            android:layout_toEndOf="@+id/imageView14"
+            android:layout_toRightOf="@+id/imageView14"
+            android:text="@string/sonido3" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="13dp"
+            android:layout_below="@+id/textView30"
+            android:layout_toEndOf="@+id/imageView14"
+            android:layout_toRightOf="@+id/imageView14"
+            android:text="@string/precio" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="13dp"
+            android:layout_alignLeft="@+id/textView29"
+            android:layout_alignStart="@+id/textView29"
+            android:layout_below="@+id/textView30"
+            android:text="@string/precio_sonido3" />
+
+        <Button
+            android:id="@+id/btn_sonido3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView31"
+            android:layout_marginTop="11dp"
+            android:layout_toEndOf="@+id/imageView14"
+            android:layout_toRightOf="@+id/imageView14"
+            android:background="@android:color/holo_orange_dark"
+            android:text="@string/Orden"
+            android:textColor="@android:color/background_dark" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

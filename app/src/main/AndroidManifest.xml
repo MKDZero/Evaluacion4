@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cl.inacap.puntaarenas.evaluacion4">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UsersListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DesplegableActivity"
+            android:label="@string/title_activity_desplegable"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Sucursales.SucursalActivity"></activity>
+        <activity android:name=".Lista_productos.DesktopActivity" />
+        <activity android:name=".Lista_productos.MonitoresActivity" />
+        <activity android:name=".Lista_productos.SonidoActivity" />
+        <activity android:name=".Lista_productos.VideoActivity" />
+        <activity android:name=".Ordenes.Orden_PC1" />
+        <activity android:name=".Ordenes.Orden_PC2" />
+        <activity android:name=".Ordenes.Orden_PC3" />
+        <activity android:name=".Ordenes.Orden_Monitor1" />
+        <activity android:name=".Ordenes.Orden_Monitor2" />
+        <activity android:name=".Ordenes.Orden_Monitor3" />
+        <activity android:name=".Ordenes.Orden_Sonido1" />
+        <activity android:name=".Ordenes.Orden_Sonido2" />
+        <activity android:name=".Ordenes.Orden_Sonido3" />
+        <activity android:name=".Ordenes.Orden_Video1" />
+        <activity android:name=".Ordenes.Orden_Video2" />
+        <activity android:name=".Ordenes.Orden_Video3"></activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Mapa.MapaActivity"
+            android:label="@string/title_activity_mapa" />
+        <activity
+            android:name=".Mapa.MapaActivity2"
+            android:label="@string/title_activity_mapa2" />
+        <activity
+            android:name=".Mapa.MapaActivity3"
+            android:label="@string/title_activity_mapa3" />
+
+        <activity android:name=".RevisarPedidosActivity"></activity>
+
+
+
+    </application>
+
+</manifest>

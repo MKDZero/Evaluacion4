@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Evaluacion 4</string>
+    <string name="txt_cuentas">Todas las cuentas</string>
+    <string name="ayuda_nombre">Nombre</string>
+    <string name="ayuda_email">Email</string>
+    <string name="ayuda_contraseña">Contraseña</string>
+    <string name="ayuda_confirmar_contraseña">Confirme Contraseña</string>
+    <string name="txt_login">Iniciar sesion</string>
+    <string name="txt_registrar">Registrar</string>
+    <string name="mensaje_error_nombre">Ingrese Nombre completo</string>
+    <string name="mensaje_error_email">Ingrese Email valido</string>
+    <string name="mensaje_error_edad">Ingrese Edad</string>
+    <string name="mensaje_error_contraseña">Ingrese Contraseña</string>
+    <string name="mensaje_satisfactorio">Registro Completado</string>
+    <string name="txt_noregistrado">Todavia no tiene cuenta? Cree una</string>
+    <string name="txt_miembro">Ya es un miembro? Inicie sesion</string>
+    <string name="error_email_existente">Email ya existente</string>
+    <string name="error_contraseña_igual">Las contraseñas no coinciden</string>
+    <string name="error_email_contraseña">Email o contraseña incorrectos</string>
+    <string name="accion_preferencias">Preferencias</string>
+    <string name="txt_hola">Hola,</string>
+    <string name="txt_titulo">Inicio de Sesion</string>
+    <string name="title_activity_desplegable">DesplegableActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="navbar1">Revisar Usuarios Creados</string>
+    <string name="navbar2">Cerrar Sesion</string>
+    <string name="navbar3">Ver Sucursales </string>
+    <string name="navbar4">Revisar Pedidos</string>
+
+    <string name="sucursal1">Sucursal Punta Arenas</string>
+    <string name="sucursal2">Sucursal Santiago</string>
+    <string name="sucursal3">Sucursal Puerto Montt</string>
+
+
+    <string name="opciones_usuario">Titulo</string>
+
+
+    <string name="pc1">Gear® Desktop GAMER-59I Intel® Core™ i7-7700 16GB 1TB+240GB SSD NVIDIA GTX 1060 3GB</string>
+    <string name="pc2">Gear® Desktop GAMER-65i Intel Core i5-8600K 16GB 1TB+240GB SSD NVIDIA GTX1070 8GB</string>
+    <string name="pc3">Gear® Desktop GAMER-63a AMD Ryzen 7 1700 8GB 1TB NVIDIA GTX1060 3GB</string>
+    <string name="monitor1">LG® Monitor Gamer 34" 34UC79G</string>
+    <string name="monitor2">Asus® Monitor Gamer 27" PG278QR</string>
+    <string name="monitor3">Samsung® Monitor Gamer 49" QLED Super WideScreen 32:9</string>
+    <string name="sonido1">Creative® Tarjeta Sonido Sound Blaster X-Fi Surround 5.1 Pro Externa</string>
+    <string name="sonido2">Creative® Tarjeta Sonido Audigy RX PCIe 24 Bits</string>
+    <string name="sonido3">Creative® Tarjeta Sonido Sound Blaster E3</string>
+    <string name="video1">EVGA® Video NVIDIA GeForce GTX1080Ti 11GB GDDR5X iCX</string>
+    <string name="video2">EVGA® Video NVIDIA GeForce GTX1080Ti SC2 GAMING 11G</string>
+    <string name="video3">Asus® Video NVIDIA GeForce GTX1080Ti 11G ROG STRIX GAMING</string>
+    <string name="Orden">Realizar orden</string>
+    <string name="nombre_producto">Nombre del Producto: </string>
+    <string name="nombre_cliente">Nombre del Cliente: </string>
+    <string name="direccion_cliente">Direccion: </string>
+    <string name="precio">Precio: </string>
+    <string name="precio_pc1">$700.000</string>
+    <string name="precio_pc2">$800.000</string>
+    <string name="precio_pc3">$900.000</string>
+    <string name="precio_monitor1">$500.000</string>
+    <string name="precio_monitor2">$600.000</string>
+    <string name="precio_monitor3">$700.000</string>
+    <string name="precio_sonido1">$100.000</string>
+    <string name="precio_sonido2">$200.000</string>
+    <string name="precio_sonido3">$300.000</string>
+    <string name="precio_video1">$500.000</string>
+    <string name="precio_video2">$600.000</string>
+    <string name="precio_video3">$700.000</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mapa">Map</string>
+    <string name="title_activity_mapa2">Map2</string>
+    <string name="title_activity_mapa3">Map3</string>
+</resources>
